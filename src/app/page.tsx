@@ -17,7 +17,7 @@ export default function HomePage() {
       <section className="relative py-20 md:py-28 overflow-hidden">
         <Image
           src="/images/tarmac-wide.png"
-          alt="Mandan Smith walking across tarmac with jets on either side"
+          alt="Manden Smith walking across tarmac with jets on either side"
           fill
           className="object-cover"
           sizes="100vw"

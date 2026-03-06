@@ -16,7 +16,7 @@ export default function SEO({ jsonLd }: SEOProps) {
     ],
     founder: {
       "@type": "Person",
-      name: "Mandan Smith",
+      name: "Manden Smith",
       jobTitle: "USCG Avionics Electrical Technician",
       affiliation: {
         "@type": "GovernmentOrganization",

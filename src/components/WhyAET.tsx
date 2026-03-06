@@ -74,7 +74,7 @@ export default function WhyAET() {
           <div className="relative overflow-hidden rounded-lg border border-slate-700/50">
             <Image
               src="/images/hangar-interior.png"
-              alt="Mandan Smith inside aircraft hangar next to a turboprop, golden light streaming through hangar doors"
+              alt="Manden Smith inside aircraft hangar next to a turboprop, golden light streaming through hangar doors"
               width={800}
               height={1000}
               className="object-cover w-full h-full"

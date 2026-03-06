@@ -8,7 +8,7 @@ export default function Hero() {
       {/* Background image */}
       <Image
         src="/images/hero-tarmac.png"
-        alt="Mandan Smith standing on airport tarmac at golden hour in front of a Gulfstream corporate jet"
+        alt="Manden Smith standing on airport tarmac at golden hour in front of a Gulfstream corporate jet"
         fill
         className="object-cover"
         priority

@@ -14,19 +14,19 @@ const technicalCards = [
     title: "Coastal Corrosion Threat",
     body: "The DOD spends $23 billion annually on corrosion-related maintenance. Jacksonville\u2019s dense humidity, persistent airborne salinity, and coastal proximity accelerate galvanic corrosion on unprotected aerospace alloys. General aviation aircraft without factory anti-corrosive treatments are especially vulnerable to pitting and material fatigue.",
     image: "/images/inspection-closeup.png",
-    alt: "Mandan Smith inspecting aircraft surface",
+    alt: "Manden Smith inspecting aircraft surface",
   },
   {
     title: "Parasitic Drag Elimination",
     body: "Environmental grime on leading edges increases parasitic drag. Oxidized paint disrupts laminar flow across aerodynamic surfaces. Aviation-grade ceramic hydrophobic coatings restore the aerodynamic profile, directly improving operational range and fuel efficiency.",
     image: "/images/hangar-interior.png",
-    alt: "Mandan Smith in aircraft hangar with golden light",
+    alt: "Manden Smith in aircraft hangar with golden light",
   },
   {
     title: "Pitot-Static System Safety",
     body: "Microscopic wax layers can alter pressure differentials in pitot-static systems. Residual chemical solvents near flush-mounted static ports compromise instrument accuracy. Our military-grade masking protocols hermetically isolate every sensor opening before any surface work begins.",
     image: "/images/hero-tarmac.png",
-    alt: "Mandan Smith on tarmac with corporate jet at golden hour",
+    alt: "Manden Smith on tarmac with corporate jet at golden hour",
   },
 ];
 
@@ -37,7 +37,7 @@ export default function ServicesPage() {
       <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
         <Image
           src="/images/inspection-closeup.png"
-          alt="Mandan Smith inspecting the leading edge of an aircraft wing"
+          alt="Manden Smith inspecting the leading edge of an aircraft wing"
           fill
           className="object-cover"
           priority
@@ -98,14 +98,14 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* Mandan CTA Section */}
+      {/* Manden CTA Section */}
       <section className="py-20 md:py-28 bg-slate-800/30">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative overflow-hidden rounded-lg border border-slate-700/50">
               <Image
                 src="/images/mandan-smith-attc.jpg"
-                alt="Mandan Smith, USCG AET Honor Graduate, at Aviation Technical Training Center"
+                alt="Manden Smith, USCG AET Honor Graduate, at Aviation Technical Training Center"
                 width={1200}
                 height={800}
                 className="object-cover w-full"
@@ -125,13 +125,13 @@ export default function ServicesPage() {
                 Every Protocol Backed by Military Training
               </h2>
               <p className="text-slate-400 leading-relaxed mb-4">
-                Preservation 6 is operated by Mandan Smith — Honor Graduate of the
+                Preservation 6 is operated by Manden Smith — Honor Graduate of the
                 U.S. Coast Guard Aviation Technical Training Center, class AET 153-24.
                 Every service tier above is executed with the same systems-level awareness
                 that governs Coast Guard rotary and fixed-wing maintenance.
               </p>
               <p className="text-slate-400 leading-relaxed mb-8">
-                When Mandan approaches your airframe, he sees electromagnetic components,
+                When Manden approaches your airframe, he sees electromagnetic components,
                 pressurized systems, and chemical-sensitive composites — not just surfaces.
               </p>
               <Link

@@ -68,7 +68,7 @@ export default function AboutPage() {
             <div className="relative overflow-hidden rounded-lg border border-slate-700/50">
               <Image
                 src="/images/mandan-smith-attc.jpg"
-                alt="Mandan Smith addressing fellow graduates at the USCG Aviation Technical Training Center, Elizabeth City, NC"
+                alt="Manden Smith addressing fellow graduates at the USCG Aviation Technical Training Center, Elizabeth City, NC"
                 width={1200}
                 height={800}
                 className="object-cover w-full"
@@ -87,7 +87,7 @@ export default function AboutPage() {
                 Founder &amp; Operator
               </p>
               <h2 className="font-heading text-3xl md:text-4xl text-white font-bold uppercase mb-6">
-                Mandan Smith
+                Manden Smith
               </h2>
               <div className="space-y-4 text-slate-400 leading-relaxed">
                 <p>
@@ -98,7 +98,7 @@ export default function AboutPage() {
                   <span className="text-orange-500 font-heading font-semibold">AET 153-24</span>.
                 </p>
                 <p>
-                  Mandan completed the rigorous 20-week Avionics Electrical
+                  Manden completed the rigorous 20-week Avionics Electrical
                   Technician program, graduating at the top of his class. The
                   curriculum demanded mastery across avionics systems —
                   communications, navigation, collision avoidance, and sensor
@@ -110,13 +110,13 @@ export default function AboutPage() {
                   Earning Honor Graduate distinction at ATTC is not a
                   participation award. It reflects the highest academic
                   performance, technical proficiency, and leadership evaluation
-                  scores in the class. It means the Coast Guard identified Mandan
+                  scores in the class. It means the Coast Guard identified Manden
                   as the most capable technician in his cohort — the one trusted
                   to set the standard.
                 </p>
                 <p>
                   That same standard now governs every preservation protocol
-                  executed on your aircraft. When Mandan approaches your airframe,
+                  executed on your aircraft. When Manden approaches your airframe,
                   he sees what a trained avionics technician sees: electromagnetic
                   components, pressurized systems, chemical-sensitive composites,
                   and flight-critical surfaces — not just panels to polish.
@@ -153,7 +153,7 @@ export default function AboutPage() {
             <div>
               <Image
                 src="/images/hangar-interior.png"
-                alt="Mandan Smith inside aircraft hangar with golden light"
+                alt="Manden Smith inside aircraft hangar with golden light"
                 width={1600}
                 height={1067}
                 className="rounded-lg border border-slate-700/50"
