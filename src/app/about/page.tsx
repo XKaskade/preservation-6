@@ -152,8 +152,8 @@ export default function AboutPage() {
             </div>
             <div>
               <Image
-                src="https://images.unsplash.com/photo-1559297434-fae8a1916a79?q=80&w=1600&auto=format"
-                alt="Aviation maintenance technician working on aircraft systems"
+                src="/images/hangar-interior.png"
+                alt="Mandan Smith inside aircraft hangar with golden light"
                 width={1600}
                 height={1067}
                 className="rounded-lg border border-slate-700/50"

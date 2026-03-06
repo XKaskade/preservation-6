@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Hero from "@/components/Hero";
 import CredentialBanner from "@/components/CredentialBanner";
 import WhyAET from "@/components/WhyAET";
@@ -12,8 +13,16 @@ export default function HomePage() {
       <WhyAET />
       <ServiceMatrix />
 
-      {/* CTA Section */}
-      <section className="relative py-20 md:py-28 bg-navy-900 noise-overlay">
+      {/* CTA Section with tarmac-wide background */}
+      <section className="relative py-20 md:py-28 overflow-hidden">
+        <Image
+          src="/images/tarmac-wide.png"
+          alt="Mandan Smith walking across tarmac with jets on either side"
+          fill
+          className="object-cover"
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-slate-950/80 z-[1]" />
         <div className="relative z-10 max-w-7xl mx-auto px-6 text-center">
           <p className="text-orange-500 text-sm font-heading uppercase tracking-[0.2em] mb-4">
             Ready for Military-Grade Preservation?

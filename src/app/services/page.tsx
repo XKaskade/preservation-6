@@ -13,20 +13,20 @@ const technicalCards = [
   {
     title: "Coastal Corrosion Threat",
     body: "The DOD spends $23 billion annually on corrosion-related maintenance. Jacksonville\u2019s dense humidity, persistent airborne salinity, and coastal proximity accelerate galvanic corrosion on unprotected aerospace alloys. General aviation aircraft without factory anti-corrosive treatments are especially vulnerable to pitting and material fatigue.",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?q=80&w=1200&auto=format",
-    alt: "Close-up of aircraft fuselage rivets and surface",
+    image: "/images/inspection-closeup.png",
+    alt: "Mandan Smith inspecting aircraft surface",
   },
   {
     title: "Parasitic Drag Elimination",
     body: "Environmental grime on leading edges increases parasitic drag. Oxidized paint disrupts laminar flow across aerodynamic surfaces. Aviation-grade ceramic hydrophobic coatings restore the aerodynamic profile, directly improving operational range and fuel efficiency.",
-    image: "https://images.unsplash.com/photo-1559297434-fae8a1916a79?q=80&w=1200&auto=format",
-    alt: "Aircraft wing leading edge detail",
+    image: "/images/hangar-interior.png",
+    alt: "Mandan Smith in aircraft hangar with golden light",
   },
   {
     title: "Pitot-Static System Safety",
     body: "Microscopic wax layers can alter pressure differentials in pitot-static systems. Residual chemical solvents near flush-mounted static ports compromise instrument accuracy. Our military-grade masking protocols hermetically isolate every sensor opening before any surface work begins.",
-    image: "https://images.unsplash.com/photo-1436491865332-7a61a109db05?q=80&w=1200&auto=format",
-    alt: "Aircraft cockpit instrumentation panel",
+    image: "/images/hero-tarmac.png",
+    alt: "Mandan Smith on tarmac with corporate jet at golden hour",
   },
 ];
 
@@ -36,8 +36,8 @@ export default function ServicesPage() {
       {/* Hero Banner with background image */}
       <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1540962351504-03099e0a754b?q=80&w=2000&auto=format"
-          alt="Corporate jet in hangar"
+          src="/images/inspection-closeup.png"
+          alt="Mandan Smith inspecting the leading edge of an aircraft wing"
           fill
           className="object-cover"
           priority

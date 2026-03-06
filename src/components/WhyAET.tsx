@@ -73,8 +73,8 @@ export default function WhyAET() {
           {/* Atmospheric image */}
           <div className="relative overflow-hidden rounded-lg border border-slate-700/50">
             <Image
-              src="https://images.unsplash.com/photo-1474302770737-173ee21bab63?q=80&w=1600&auto=format"
-              alt="Aircraft maintenance in hangar"
+              src="/images/hangar-interior.png"
+              alt="Mandan Smith inside aircraft hangar next to a turboprop, golden light streaming through hangar doors"
               width={800}
               height={1000}
               className="object-cover w-full h-full"

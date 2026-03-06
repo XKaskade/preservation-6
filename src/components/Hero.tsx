@@ -7,8 +7,8 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden noise-overlay">
       {/* Background image */}
       <Image
-        src="https://images.unsplash.com/photo-1540962351504-03099e0a754b?q=80&w=2000&auto=format"
-        alt="Corporate jet on airport ramp at dusk"
+        src="/images/hero-tarmac.png"
+        alt="Mandan Smith standing on airport tarmac at golden hour in front of a Gulfstream corporate jet"
         fill
         className="object-cover"
         priority
